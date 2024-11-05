@@ -1,4 +1,8 @@
 
+## Math
+  * Calculus
+    * [Limit](Math/calculus/limit.py)
+
 ## Python
   * Made-Easy
     * [Chapter 1 Intro To Ds](Python/made-easy/chapter_1_intro_to_ds.ipynb)
