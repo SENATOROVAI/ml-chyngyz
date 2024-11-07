@@ -12,6 +12,21 @@ repos:
     rev: "24.10.0"
     hooks:
       - id: black
+  - repo: https://github.com/mwouts/jupytext
+    rev: "v1.16.4b"
+    hooks:
+     - id: jupytext
+       entry: jupytext
+       language: python
+       types: [jupyter]
+       args:
+         - --from=ipynb
+         - --sync
+         - --to=py:percent
+         - --opt=notebook_metadata_filter=-kernelspec
+         - --set-formats=ipynb,py:percent
+         - --quiet
+       exclude: '.*\.md$'
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.0
     hooks:
@@ -32,9 +47,10 @@ repos:
     rev: "5.13.2"
     hooks:
       - id: isort
+        entry: isort
         args:
-          - --check
           - --float-to-top
+
   - repo: https://github.com/nbQA-dev/nbQA
     rev: "1.9.0"
     hooks:
@@ -65,7 +81,6 @@ repos:
         types_or: [jupyter, markdown]
         additional_dependencies: [isort]
         args:
-          - --check
           - --float-to-top
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
