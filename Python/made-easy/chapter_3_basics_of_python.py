@@ -1,6 +1,18 @@
-#!/usr/bin/env python
+# ---
+# jupyter:
+#   jupytext:
+#     formats: ipynb,py:percent
+#     notebook_metadata_filter: -kernelspec
+#     text_representation:
+#       extension: .py
+#       format_name: percent
+#       format_version: '1.3'
+#       jupytext_version: 1.16.4
+# ---
 
-# In[1]:
+# %%
+
+# %%
 
 
 """Chapter 3 Python Basics."""
@@ -41,7 +53,7 @@
 # * Otherwise the string is enclosed in single quotes
 #
 
-# In[2]:
+# %%
 
 
 # print("'Isn't', they said")
@@ -52,7 +64,7 @@
 # * Strings can be combined.
 # * The `+` operator **adds up**, and the operator `*` **multiplies**.
 
-# In[3]:
+# %%
 
 
 # print("a" + "b")
@@ -63,7 +75,7 @@
 # * Two strings that are located next to each other, are automatically combined.
 # * This is especially useful if you need to split long strings.
 
-# In[4]:
+# %%
 
 
 # text = " Put several strings within parentheses -" "
@@ -76,7 +88,7 @@
 # * Strings can be indexed (access the elements of the string by index).
 # * Index of first element is `0`.
 
-# In[5]:
+# %%
 
 
 # word = "Python"
@@ -95,7 +107,7 @@
 
 # The slice returns a substring. Note that the initial index is always included, and the final one is always excluded.
 
-# In[6]:
+# %%
 
 
 # print(word[:2] + word[2:])
@@ -103,7 +115,7 @@
 
 # Python strings cannot be changed - they are immutable. Therefore, it is not possible to assign a new value to a symbol by a specific index.
 
-# In[7]:
+# %%
 
 
 # print(len(word))  #  function len returns string's length
@@ -118,7 +130,7 @@
 #
 # * Multiline extensions can be transferred to other lines using parentheses
 
-# In[8]:
+# %%
 
 
 # moving an expression to a new line using \
@@ -137,7 +149,7 @@
 # x = {1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9}
 
 
-# In[9]:
+# %%
 
 
 # You can also end an expression with a semicolon (;)
@@ -239,7 +251,7 @@
 #
 #
 
-# In[10]:
+# %%
 
 
 # Little tricks, what you can do with print function
@@ -335,7 +347,7 @@
 # 10. True
 #
 
-# In[11]:
+# %%
 
 
 friends_name: str = "Daniel"
@@ -344,7 +356,7 @@ friends_last_name: str = "Santos"
 print(friends_name + " " + friends_last_name)
 
 
-# In[12]:
+# %%
 
 
 l_: int = 23
@@ -353,7 +365,7 @@ p_: int = l_ * h_
 print("Rectangle length is:", p_)
 
 
-# In[13]:
+# %%
 
 
 square: int = 32**2
@@ -362,7 +374,7 @@ cube: int = 27**3
 print("square of 32 is:", square, "cube of 27 is:", cube)
 
 
-# In[14]:
+# %%
 
 
 a_: int = 2
@@ -370,7 +382,7 @@ b_: int = 4
 (a_ + b_) ** 2 == a_**2 + b_**2 + 2 * a_ * b_
 
 
-# In[15]:
+# %%
 
 
 name_len: str = "Chyngyz"
@@ -378,7 +390,7 @@ name_len: str = "Chyngyz"
 print("my name's length is", len(name_len))
 
 
-# In[16]:
+# %%
 
 
 print("__________")
@@ -392,7 +404,7 @@ print("|        |")
 print("----------")
 
 
-# In[17]:
+# %%
 
 
 print("________")
@@ -404,7 +416,7 @@ print("|")
 print("|")
 
 
-# In[18]:
+# %%
 
 
 Name: str = "Chyngyz"
@@ -412,7 +424,7 @@ Age: int = 23
 print(f"My name is {Name}, my age - {Age}")
 
 
-# In[19]:
+# %%
 
 
 words = ["cat", "window", "defenestrate"]
@@ -420,7 +432,7 @@ for w_ in words:
     print(w_, len(w_))
 
 
-# In[20]:
+# %%
 
 
 c_, d_ = 0, 1

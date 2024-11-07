@@ -1,6 +1,18 @@
-#!/usr/bin/env python
+# ---
+# jupyter:
+#   jupytext:
+#     formats: ipynb,py:percent
+#     notebook_metadata_filter: -kernelspec
+#     text_representation:
+#       extension: .py
+#       format_name: percent
+#       format_version: '1.3'
+#       jupytext_version: 1.16.4
+# ---
 
-# In[1]:
+# %%
+
+# %%
 
 
 """Chapter 2 notes for Made Easy book."""

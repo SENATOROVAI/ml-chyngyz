@@ -1,12 +1,24 @@
-#!/usr/bin/env python
+# ---
+# jupyter:
+#   jupytext:
+#     formats: ipynb,py:percent
+#     notebook_metadata_filter: -kernelspec
+#     text_representation:
+#       extension: .py
+#       format_name: percent
+#       format_version: '1.3'
+#       jupytext_version: 1.16.4
+# ---
 
-# In[2]:
+# %%
+
+# %%
 
 
 """Chapter 4 Objects and Operators in Python."""
 
 
-# In[3]:
+# %%
 
 
 import keyword
@@ -54,7 +66,7 @@ import math
 # * You can't use reserved names such as: any, break, try and etc.
 # * Hint: to check reserved words you can execute this code:
 
-# In[4]:
+# %%
 
 
 print(keyword.kwlist)
@@ -136,7 +148,7 @@ print(keyword.kwlist)
 #
 # An object's identity never changes once it has been created. That becomes the object's address in memory.In Python, every Object’s Identity (or Address in memory) is represented by a number. You can see that number by using the id() function.
 
-# In[5]:
+# %%
 
 
 a_id_example: int = 5
@@ -145,31 +157,31 @@ id(a_id_example)
 
 # The type() function returns an object's type. Like its identity, an object's type is also unchangeable.
 
-# In[6]:
+# %%
 
 
 str  # str means String.
 
 
-# In[7]:
+# %%
 
 
 float  # floating point number
 
 
-# In[8]:
+# %%
 
 
 type(["x", "yz", "abc"])  # list containing 3 strings
 
 
-# In[9]:
+# %%
 
 
 type(["x", "y", 1])  # list containing 2 strings and one number
 
 
-# In[10]:
+# %%
 
 
 type({"food": "spam", "taste": "yum"})  # dictionary
@@ -245,25 +257,25 @@ type({"food": "spam", "taste": "yum"})  # dictionary
 #
 # `chr()` converts an integer in the range 0 - 10FFFF to the corresponding length 1 string object.
 
-# In[11]:
+# %%
 
 
 ord("nilabh"[3])  # this is same as ord('a')
 
 
-# In[12]:
+# %%
 
 
 ord("a")
 
 
-# In[13]:
+# %%
 
 
 chr(97)
 
 
-# In[14]:
+# %%
 
 
 print(chr(96))
@@ -425,13 +437,13 @@ print(chr(100009))
 # | not in | x not in y | True if x is a not a member of collection y |
 #
 
-# In[15]:
+# %%
 
 
 4 == 2 * 2
 
 
-# In[16]:
+# %%
 
 
 input_string: str = "string"
@@ -497,14 +509,14 @@ if "i" in input_string:
 #
 # In Python, though the value that a variable point to has a type, the variable itself has no strict type in its definition. You can reuse the same variable to point to an object of a different type.
 
-# In[17]:
+# %%
 
 
 six_number: int = 6
 six_number
 
 
-# In[18]:
+# %%
 
 
 six_string: str = "six"
@@ -659,7 +671,7 @@ six_string
 # 1. Peter's salary is 12000 per month. If he saves 20% of his salary every month, write a code to calculate his total savings at the end of the year.
 #
 
-# In[19]:
+# %%
 
 
 salary: int = 12000
@@ -673,7 +685,7 @@ total_savings
 
 # 2. Distance between Mumbai and Delhi is 1422 KMs. If Sundar travels in a car with an average speed of 45 Miles per hour, how long will it take him to cover this distance?
 
-# In[20]:
+# %%
 
 
 city_distance: int = 1422  # kms
@@ -691,7 +703,7 @@ cover_time
 # Fahrenheit to 99 degrees Fahrenheit. What will be this range in
 # Degree Centigrade?
 
-# In[21]:
+# %%
 
 
 def fahrenheit_converter(fahrenheit: float) -> float:
@@ -720,7 +732,7 @@ print(f"{temp_celsius_low:.2f}°C to {temp_celsius_high:.2f}°C")
 # 4. Take any 6 digit number. Write a program to calculate the sum of all
 # the digits of the numb
 
-# In[22]:
+# %%
 
 
 def sum_of_digits(number: int) -> int:
@@ -744,7 +756,7 @@ result
 # 5. Sales per month of 5 Book Shops in Brooklyn, New York City are as follows. A = $6500, B = $8000, C = $12000, D = $4900 and E = $5600. Assuming that there are only these 5 book shops in Brooklyn, find out the market share of each shop. Also notice, what is the sum of the market share of all the shops? (Market share means, the share of one)
 #
 
-# In[23]:
+# %%
 
 
 shop_dict: dict[str, int] = {
@@ -761,7 +773,7 @@ for shop, sales in shop_dict.items():
 
 # 6. John buys a mobile phone for 1800 from Kolkata and sells it at Mumbai at a gain of 25%. If his overhead expenses are 5% of the selling price, then what is his selling price?
 
-# In[24]:
+# %%
 
 
 phone_price: int = 1800
@@ -775,7 +787,7 @@ selling_price
 
 # 7. Find the volume and Surface area of a cube whose diagonal is 5 Mtr
 
-# In[25]:
+# %%
 
 
 diagonal: int = 5
@@ -788,7 +800,7 @@ print(cube_volume, cube_surface)
 
 # 8. Three cubes of metal whose edges are 3, 4, and 5 cms respectively, are melted and formed into a single cube. Find the edge of the new cube formed.
 
-# In[26]:
+# %%
 
 
 first_edge: int = 3
@@ -811,7 +823,7 @@ new_edge
 
 # 9. Write a 6 digit number. Write a program to reverse the order of the digits in the number
 
-# In[27]:
+# %%
 
 
 six_digit_number = 123456
