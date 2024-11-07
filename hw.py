@@ -16,7 +16,7 @@
 
 
 """Detailed roadmap to became professional."""
-  
+
 # - Демидович
 # - Calculus(https://t.me/c/1937296927/888/22444)
 # - 1)5.18,5.20,5.22,5.23-5.25,(5.28-5.60 только четные)
