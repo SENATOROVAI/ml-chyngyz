@@ -2,7 +2,7 @@
 Calculus:
 
 Горячие формулы - хелперы https://t.me/c/1937296927/888/23345
-
+Привет
 Пределы (дедлайн до 01.11)
 Калькулятор пределов https://mathdf.com/lim/ru/
 Калькулятор пределов https://www.wolframalpha.com/input?i=limit+%281%2B1%2Fn%29%5En+as+n-%3Einfinity
