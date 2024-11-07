@@ -4,7 +4,6 @@
 
 
 """Detailed roadmap to became professional."""
-awdadwadwadwadwadwвцфвфцфцв
 
 # - Демидович
 # - Calculus(https://t.me/c/1937296927/888/22444)
