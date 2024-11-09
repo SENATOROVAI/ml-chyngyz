@@ -13,8 +13,6 @@
 # %%
 
 # %%
-
-
 """Detailed description of the new knowledge gained on a certain date."""
 
 
