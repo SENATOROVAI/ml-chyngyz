@@ -1,20 +1,4 @@
-# ---
-# jupyter:
-#   jupytext:
-#     formats: ipynb,py:percent
-#     notebook_metadata_filter: -kernelspec
-#     text_representation:
-#       extension: .py
-#       format_name: percent
-#       format_version: '1.3'
-#       jupytext_version: 1.16.4
-# ---
-
-# %%
-
-# %%
 """Detailed description of the new knowledge gained on a certain date."""
-
 
 # ##### 31.07.2024
 #
@@ -164,3 +148,11 @@
 # 3. Прошли односторонние пределы
 # 4. Прошли понятия точки разрыва и их классификацию
 # 5. Точки разрыва первого рода, первого рода со скачком, второго рода.
+
+# #### 11.19.2024
+#
+# 1. ctrl + i  - комопзер для создания файлов и проектов, а так же упралвять зависимостями в проекте
+#
+# 2. ctrl + k - точечная работа в  файле
+#
+# 3. ctrl + l - чат для подсказски.
