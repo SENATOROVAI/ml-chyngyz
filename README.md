@@ -4,6 +4,7 @@
 
 ## Math
   * Calculus
+    * [Demedovich Hw](Math/calculus/demedovich_hw.py)
     * [Limit](Math/calculus/limit.py)
 
 ## Python
